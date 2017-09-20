@@ -35,3 +35,10 @@ LOCAL_CFLAGS := -Wall
 LOCAL_LDFLAGS := -static
 include $(BUILD_EXECUTABLE)
 
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := h990-siminfo
+LOCAL_SRC_FILES := h990-siminfo.c
+LOCAL_CFLAGS := -Wall
+include $(BUILD_EXECUTABLE)
+
